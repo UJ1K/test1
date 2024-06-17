@@ -34,7 +34,7 @@ const menu = [
 
 const MenuAtasAnekaTombol = () => {
 
-  const [konfigurasi, setKonfigurasi] = useAtom(konfigurasiAtom)
+  const [konfigurasi] = useAtom(konfigurasiAtom)
 
   return (
     <div

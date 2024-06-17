@@ -5,7 +5,7 @@ import konfigurasiAtom from "../../konfigurasi-atom"
 
 const MenuUser = () => {
 
-  const [konfigurasi, setKonfigurasi] = useAtom(konfigurasiAtom) 
+  const [konfigurasi] = useAtom(konfigurasiAtom) 
 
   return (
     <div

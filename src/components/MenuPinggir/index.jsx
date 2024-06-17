@@ -8,14 +8,13 @@ import MenuPinggirTombolTampilkan from "./TombolTampilkan"
 
 const MenuPinggir = () => {
 
-  const [konfigurasi, setKonfigurasi] = useAtom(konfigurasiAtom)
+  const [konfigurasi] = useAtom(konfigurasiAtom)
 
   return (
     <div
       className="MenuPinggir"
       css={{
         zIndex: 10,
-        background: `green`,
         position: `fixed`,
         top: 0,
         left: konfigurasi.bukaMenuPinggir ? 0 : -360,
